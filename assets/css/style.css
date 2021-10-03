@@ -1,0 +1,183 @@
+/* Remove default html margin, padding and assign box-sizinz as border-box to all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #47474d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+
+.city-search-forecast-container{
+    display: flex;
+    flex-wrap: wrap;
+   /* flex-direction: column;*/
+   justify-content: space-between;
+}
+
+.city-form-container{
+    margin-bottom: 10px;
+}
+
+#city-name {
+    height:35px;
+}
+
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+
+#city-name input:focus {
+    box-shadow: 0 0 10px dodgerblue !important;
+    -moz-box-shadow: 0 0 3px green !important;
+    -webkit-box-shadow: 0 0 3px green !important;
+}
+
+.form-input {
+  flex-grow: 1;
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+}
+    
+.btn {
+    flex-grow: 2;
+    font-size: 1.5em;
+    text-decoration:none;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 6px;
+  }
+
+.fa-search:hover{
+  color: #FFD700;
+}
+
+.borderDiv {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 18px;  
+  border:groove rgba(102, 102, 153, 0.2);
+}
+
+.border-Div-right-column {
+  background-color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-bottom: 10px;
+}
+
+
+.list-group {
+  margin-bottom: 10px;
+}
+
+.weekly-flex-conatiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.border-div-five-day-forecast {
+  background-color: dodgerblue;
+  color:white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 18px;  
+  border:groove rgba(102, 102, 153, 0.2);
+}
+  
+
+.forcast-padding {
+    padding-bottom: 10px;
+}
+
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 1330px) {
+
+  h3 {
+    font-size: 20px;
+  }
+
+}
+
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 1025px) {
+
+  h3 {
+    font-size: 20px;
+  }
+
+
+  .form-input {
+    flex-grow: 1;
+
+  }
+
+  .btn {
+    margin-top: 5px;
+    margin-bottom: 1;
+    flex-grow: 1;
+    }
+  
+}
+
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 900px) {
+
+  h3 {
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+/* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 768px) {
+
+  h3 {
+    font-size: 21px;
+  }
+
+  img {
+    width: 25%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+
+  .btn {
+  margin-top: 5px;
+  margin-bottom: 1;
+  flex-grow: 1;
+  }
+
+  .weekly-flex-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+  .border-div-five-day-forecast {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 5px;
+  }
+}
