@@ -184,7 +184,7 @@ function populateCurrentDayHtml(
   currentIconEl.innerHTML = "<img src=" + currentIconSymbol + "></img>";
   currentDayTitle.append(currentIconEl);
 
-  // Create p elements to hold the rest of current day informatino
+  // Create p elements to hold the rest of current day information
   var currentTempEl = document.createElement("p");
   var currentHumidityEl = document.createElement("p");
   var currentWinSpEl = document.createElement("p");
