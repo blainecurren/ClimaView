@@ -1,7 +1,9 @@
 <h1 align="center">ClimaView</h3>
 
   <p align="center">
-    project_description
+ Climaview is a weather dashboard app that provides users with comprehensive weather information at a glance. It offers real-time updates, forecasts, and customizable features to help users stay informed about weather conditions in their area and beyond.
+
+
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
