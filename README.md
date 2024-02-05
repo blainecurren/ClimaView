@@ -14,7 +14,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-<h2 alight="center">About The Project</h2> 
+<h2 align="center">About The Project</h2> 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
