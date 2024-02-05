@@ -4,16 +4,7 @@
  Climaview is a weather dashboard app that provides users with comprehensive weather information at a glance. It offers real-time updates, forecasts, and customizable features to help users stay informed about weather conditions in their area and beyond.
 
  </p>
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
- 
+   
 </div>
 
 
