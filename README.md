@@ -13,7 +13,7 @@ Climaview is a weather dashboard app that provides users with comprehensive weat
 
 * [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 2. Open index.html in browser
  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -43,7 +43,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contact
@@ -52,7 +52,7 @@ Blaine Curren - [@BlaineCurren](https://twitter.com/BlaineCurren) - blaine.curre
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
